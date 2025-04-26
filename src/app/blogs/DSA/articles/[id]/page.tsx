@@ -7,7 +7,6 @@ import { Pages } from '@/lib/Constants/PagesConstants';
 import Loading from '@/components/customUI/BlogLoading';
 
 export default function SingleArticle() {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
 
   useEffect(() => {
