@@ -1,0 +1,1 @@
+export const Pages = {"Blogs": "blogs","Bookshelf":"bookshelf"}
