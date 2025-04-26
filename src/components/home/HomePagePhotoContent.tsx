@@ -26,7 +26,7 @@ export default function HomePagePhotoContent(){
                         {listOfButtons.map(x=> MainPageButton(x))}
                     </div>
                 </div>
-                <div className="h-[70vh] w-[40vw] m-6 relative rounded-2xl p-1 border-4 border-blue-300">
+                <div className="h-[70vh] w-sm m-6 relative rounded-2xl p-1 border-4 border-blue-300">
                     <div className="h-full p-1 relative w-sm">
                         <Image src="/profilePic.png" alt="profilePic" fill className='rounded-2xl p-1 border-4 border-pink-300 grayscale hover:grayscale-0' />
                     </div>

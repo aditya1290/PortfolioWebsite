@@ -17,7 +17,7 @@ export default function SingleArticle() {
         ssr: false,
         loading: () => <Loading />,
       });
-      setComponent(DynamicComponent); // ✅ now safe
+      setComponent(()=> DynamicComponent);
     }
   }, []);
 
