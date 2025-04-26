@@ -13,7 +13,7 @@ export const Articles: DataProps[] = [
     {id: "8",title:"Searching Practice Problems", date:8, tags:["Basics", "Searching"], level:"Intermediate", last:true},
     
     {id: "9",title:"Basic Sorting Algorithm", date:9, tags:["Basics","Searching","Array"], level:"Beginner"},
-    {id: "10",title:"Quick, Merge and Heap Sort", date:10, tags:["Basics","Searching","Array"], level:"Beginner"},
+    /*{id: "10",title:"Quick, Merge and Heap Sort", date:10, tags:["Basics","Searching","Array"], level:"Beginner"},
     {id:"11",title:"Counting, Radix Sort", date:11, tags:["Basics","Searching","Array"], level:"Beginner"},
     {id:"12",title:"Sorting Practice Problems", date:12, tags:["Basics", "Searching"], level:"Intermediate", last:true},
 
@@ -53,17 +53,5 @@ export const Articles: DataProps[] = [
 
     {id:"35",title:"BST All-in-one Sheet", date:35,tags:["Array"],level:"Intermediate"},
     {id:"36",title:"BST Practice Problems", date:36, tags:["Array"], level:"Intermediate", last:true},
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 ];

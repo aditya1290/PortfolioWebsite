@@ -15,7 +15,7 @@ export const sectionManager: Section[] = [
     },
     {
         text: "System Design Concepts",
-        href: "blogs/System-Design",
+        href: "blogs/SystemDesign",
         description: "Understand system design basics, common patterns, high-level architectures, and case studies for scalable systems.",
         hoverColor: "hover:bg-green-100"
     },
@@ -28,7 +28,7 @@ export const sectionManager: Section[] = [
     },
     {
         text: "Java and Spring Framework",
-        href: "blogs/Java-spring",
+        href: "blogs/JavaSpring",
         description: "Learn Java programming and build enterprise-level applications using the Spring framework with best practices.",
         hoverColor: "hover:bg-red-100"
     },
@@ -46,13 +46,13 @@ export const sectionManager: Section[] = [
     },
     {
         text: "Cybersecurity & Security Practices",
-        href: "blogs/security",
+        href: "blogs/CyberSecurity",
         description: "Learn about common security threats, best practices, authentication, encryption, and web application security.",
         hoverColor: "hover:bg-fuchsia-100"
     },
     {
         text: "JavaScript for Web",
-        href: "blogs/javascript",
+        href: "blogs/Javascript",
         description: "Master the JavaScript language with tutorials on ES6+, DOM manipulation, asynchronous programming, and frameworks.",
         hoverColor: "hover:bg-slate-200"
     }

@@ -1,5 +1,3 @@
 import { DataProps } from "@/lib/types";
 
-export const OtherDsaProblems: DataProps[] = [
-    
-];
+export const OtherDsaProblems: DataProps[] = [];
