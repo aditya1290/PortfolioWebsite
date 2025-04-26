@@ -2,17 +2,15 @@
 
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
-import { usePathname } from 'next/navigation';
 import { WithNavbarAndSidebar } from '@/components/customUI/hook';
 import { Pages } from '@/lib/Constants/PagesConstants';
 import Loading from '@/components/customUI/BlogLoading';
 
 export default function SingleArticle() {
-  const pathname = usePathname(); // e.g., /blogs/1
-  const slug = pathname.split('/blogs/')[1];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [Component, setComponent] = useState<React.ComponentType<any> | null>(null);
 
-useEffect(() => {
+  useEffect(() => {
     if (typeof window !== 'undefined') {
       const slug = window.location.href.split('/blogs/')[1]?.split('?')[0].split('#')[0];
       if (!slug) return;
@@ -20,8 +18,7 @@ useEffect(() => {
         ssr: false,
         loading: () => <Loading />,
       });
-
-      setComponent(() => DynamicComponent);
+      setComponent(DynamicComponent); // ✅ now safe
     }
   }, []);
 

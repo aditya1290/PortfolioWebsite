@@ -1,4 +1,4 @@
-import { CppCodingBlock, CppNote, NormalNote } from "@/components/customUI/BlogInsider/CodingBlock";
+import { CppCodingBlock, CppNote } from "@/components/customUI/BlogInsider/CodingBlock";
 import { ScrollLinks, WithHeadingAndRightSidebar } from "@/components/customUI/BlogInsider/Heading";
 import { ApproachWriting, ComplexityWriting, QuestionWithLogic } from "@/components/customUI/BlogInsider/Question";
 import Link from "next/link";
@@ -22,7 +22,7 @@ export default function Component(){
         <WithHeadingAndRightSidebar rightSidebarItem={items} heading={"Logic Building - Basics"}>
             Lets start with creating some logics, to ensure we know how to approach the problems.
             <hr className="my-2" />
-            
+
             <b>Note: </b>Solve if you can. Otherwise go through explaination. I recommend explaination even after solving succesfully.
 
             <QuestionWithLogic id="sumOfDigits"  text="Q1. Given a number, return the sum of the digits of the number" href="https://www.geeksforgeeks.org/problems/sum-of-digits1742/1">

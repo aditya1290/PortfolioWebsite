@@ -2,7 +2,7 @@ import { Articles } from "@/lib/Data/DSA/Articles";
 import { DataProps, DsaBlogSettingsProp } from "@/lib/types";
 import { Table, TableHeader, TableRow, TableHead, TableBody } from "../ui/table";
 import { ArticleItem } from "./ArticleItem";
-import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from "../ui/pagination";
+import { Pagination, PaginationContent, PaginationItem } from "../ui/pagination";
 import { Button } from "../ui/button";
 import { useState } from "react";
 
@@ -11,8 +11,8 @@ export const DsaArticlesTable = ({selectedTags,filterString}: DsaBlogSettingsPro
 
     if(selectedTags.length>0)       currentList = currentList.filter(item => selectedTags.every(x => item.tags.includes(x)));
     if(filterString.length>0)       currentList = currentList.filter(item => (item.title.toLowerCase().includes(filterString.toLowerCase()) || item.id.includes(filterString)));
-    
-    let [currentPage, setCurrentPage] = useState(1);
+
+    const [currentPage, setCurrentPage] = useState(1);
 
     return (
         <div>

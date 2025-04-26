@@ -11,7 +11,7 @@ export const createBreadcrumb = (text: string, href: string) => {
     const splittedText = text.split("/");
     const allLinks = href.split("/");
 
-    let list: BreadcrumbItemProps[] = [];
+    const list: BreadcrumbItemProps[] = [];
 
     let continuedLink = "";
     for(let i = 0;i<splittedText.length;i++){

@@ -1,6 +1,5 @@
 import { CppNote } from "@/components/customUI/BlogInsider/CodingBlock";
 import { ScrollLinks, WithHeadingAndRightSidebar } from "@/components/customUI/BlogInsider/Heading";
-import { Table } from "@/components/ui/table";
 
 
 const items: ScrollLinks[] = [
@@ -21,7 +20,7 @@ export default function Component(){
     return (
 
         <WithHeadingAndRightSidebar rightSidebarItem={items} heading={"Introduction to Data types in C++"}>
-            Let's explore the various data types in C++, their limits and the usage.
+            Let&apos;s explore the various data types in C++, their limits and the usage.
             <hr className="my-2" />
 
 
@@ -41,7 +40,7 @@ export default function Component(){
 
                 <p id="charTypes" className="text-md font-[500] my-2">c) Character values</p>
                 <p>Character is 1 byte storage, and can store ASCII values</p>
-                
+
                 <p id="boolean" className="text-md font-[500] my-2">d) Boolean Types</p>
                 <p>Boolean stores the value as either true or false, and this can be stored in 1 bit(1 or 0)</p>
 
@@ -51,9 +50,9 @@ export default function Component(){
             <div className="my-4" />
             <hr className="my-2" />
             <p className=" my-2 text-lg font-[600] underline">Derived Data Types</p>
-            
+
                 <p id="Array" className="text-md font-[500] my-2">a) Array</p>
-                A continuous storage of a particular data type, like 5 elements in line together. 
+                A continuous storage of a particular data type, like 5 elements in line together.
                 <CppNote heading="" code={`int marks[5] = {90, 85, 88, 92, 95};`} />
 
                 <p id="Pointer" className="text-md font-[500] my-2">b) Pointer</p>
@@ -66,7 +65,7 @@ export default function Component(){
                 <p>C++ allows you to create your own data types as:</p>
                 <p id="struct" className="text-md font-[500] my-2">a) Struct</p>
                 <CppNote heading="" code={`struct Person{\n    string name;\n    int age;\n}`} />
-            
+
                 <p id="class" className="text-md font-[500] my-2">b) Class</p>
                 Similar to struct but with access specifiers.
                 <CppNote heading="" code={ClassCode} />
@@ -109,7 +108,7 @@ const FloatingPointTable = () => {
         example: "3.141592653589793238L",
       },
     ];
-  
+
     return (
       <div className="overflow-x-auto p-4">
         <table className="min-w-full border border-gray-300 rounded-lg shadow">
@@ -165,7 +164,7 @@ const IntegerTypesTable = () => {
         unsigned: "0 to 18,446,744,073,709,551,615",
       },
     ];
-  
+
     return (
       <div className="overflow-x-auto p-4">
         <table className="min-w-full table-auto border border-gray-300 shadow rounded-lg">

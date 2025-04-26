@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CircleArrowRight } from "lucide-react";
 
 export const sectionBox = (s: Section) => {
-    let cssClassName = `min-w-md m-2 flex p-2 border-1 justify-between items-center rounded-lg ${s.hoverColor}`;
+    const cssClassName = `min-w-md m-2 flex p-2 border-1 justify-between items-center rounded-lg ${s.hoverColor}`;
     return (
         <div className={`${cssClassName}`} key={s.text}>
             <h3 className="m-1 text-md leading-none tracking-tight text-gray-700 font-semibold">{s.text}</h3>

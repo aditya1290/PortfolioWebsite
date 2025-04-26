@@ -1,12 +1,12 @@
 import { CppCodingBlock, CppNote } from '@/components/customUI/BlogInsider/CodingBlock';
-import { AccordingSubHeading, ScrollLinks, SubHeading, WithHeading, WithHeadingAndRightSidebar } from '@/components/customUI/BlogInsider/Heading';
+import { AccordingSubHeading, ScrollLinks, WithHeadingAndRightSidebar } from '@/components/customUI/BlogInsider/Heading';
 import Image from 'next/image';
 import {
     Accordion,
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
-  } from "@/components/ui/accordion"
+} from "@/components/ui/accordion"
 import Head from 'next/head';
 
 const items:ScrollLinks[] = [
@@ -22,8 +22,8 @@ const items:ScrollLinks[] = [
     { text: "Map", href:"map", type: "CLICK_OPEN"},
     { text: "Pair", href: "pair" , type: "CLICK_OPEN"},
     { text: "Some Common Functions", href: "functions", type: "CLICK_OPEN"}
-  ]
-  
+]
+
 export default function Component(){
     return (
         <WithHeadingAndRightSidebar heading={"Introduction to STL and important Data Structures"} rightSidebarItem={items}>
@@ -95,7 +95,7 @@ export default function Component(){
                     <AccordionContent className='my-2 border-2 p-2 rounded-lg' >
                     A priority queue is a special type of queue where each element is associated with a priority, and the element with the highest priority is served first.
                     <br />
-                    
+
                     <p style={{ whiteSpace: "break-spaces" }}>
                     {`The Priority Queue is similar to queue or is exactly how heaps work.\nIt only calculates the top elements, and all the other elements are not in sorted form.\nIn Heaps, as you pop the top element, you have to call heapify function to make sure you get the top element as the correct one.\nIn PQ, this is taken care of internally.`}
                     </p>
@@ -109,7 +109,7 @@ export default function Component(){
                     <br />
                     <CppCodingBlock code={commonPQ} heading={"Common functions of Priority Queue"} />
                     <p className='mb-1'>{`Since Priority Queue internally is a Heap(Tree), all push and pop are O(nlogn).\nThe top(), empty(), size() are O(1)`}</p>
-                    <div><b>Use Cases:</b> Dijkstra's Algorithm(Graphs), Load Balancing System, A* algorithm, etc.</div>
+                    <div><b>Use Cases:</b> Dijkstra&apos;s Algorithm(Graphs), Load Balancing System, A* algorithm, etc.</div>
                     </AccordionContent>
                 </AccordionItem>
 
@@ -153,7 +153,7 @@ export default function Component(){
                         <CppNote heading={"Define set"} code={`set<int>s;`} />
                         <CppCodingBlock heading={"Common functions in set"} code={CommonSet} />
                         <br />
-                        <p>The only issue with set is, it can't store multiple values within set</p>
+                        <p>The only issue with set is, it can&apos;t store multiple values within set</p>
                         <br />
                         <p><b>Important: </b>Since Set needs to be ordered, the values getting stored in set should be comparable. We can use int, but not any random struct(unless we provide custom comparator. This is not needed currently)</p>
                     </AccordionContent>
@@ -162,7 +162,7 @@ export default function Component(){
                 <AccordionItem value="multiset" className='my-1'>
                     <AccordionTrigger id="multiset" className='cursor-pointer bg-amber-50 px-4 py-0 rounded-lg items-center'><AccordingSubHeading text='Multiset' /></AccordionTrigger>
                     <AccordionContent className='my-2 border-2 p-2 rounded-lg'>
-                        <p>It is as similar to set, but since set can't store multiple values</p>
+                        <p>It is as similar to set, but since set can&apos;t store multiple values</p>
                         <p>Multiset helps you put multiple equal values inside set</p>
                         <CppNote heading={"Check with this code"} code={`multiset<int>s;\ns.insert(5);\ns.insert(5);\ncout<<s.size();   // returns 2`} />
                         All the functions are similar to set, 

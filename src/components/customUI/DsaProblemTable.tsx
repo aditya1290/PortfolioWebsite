@@ -1,5 +1,4 @@
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { BadeOnlyDisplay } from "./Badges"
+import { Table, TableBody, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { DataProps, DsaBlogSettingsProp } from "@/lib/types";
 import { LeetcodeProblems } from "@/lib/Data/DSA/Problems/Leetcode";
 import { GeekForGeeksProblems } from "@/lib/Data/DSA/Problems/GeekForGeeks";

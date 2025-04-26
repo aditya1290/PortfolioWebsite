@@ -1,5 +1,5 @@
 import { createBreadcrumb } from "@/components/customUI/CustomBreadcrumb";
-import { WithNavbar, WithNavbarAndSidebar } from "@/components/customUI/hook";
+import { WithNavbar } from "@/components/customUI/hook";
 import { Pages } from "@/lib/Constants/PagesConstants";
 import { ArrowRightSquare } from "lucide-react";
 import Image from "next/image";

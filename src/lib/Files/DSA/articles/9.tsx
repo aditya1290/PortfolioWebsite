@@ -8,7 +8,7 @@ export default function Component(){
             This page contains 3 basic sorting algorithms, bubble sort, selection algorithm, insertion algorithm
             <hr className="mb-2" />
 
-            
+
 
         </WithHeadingAndRightSidebar>
     );

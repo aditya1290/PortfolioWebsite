@@ -1,7 +1,5 @@
 import BlogQuestionListItem from "@/components/customUI/BlogInsider/BlogQuestionListItem";
 import { ScrollLinks, WithHeadingAndRightSidebar } from "@/components/customUI/BlogInsider/Heading";
-import { SquareAsteriskIcon } from "lucide-react";
-import Link from "next/link";
 
 const items: ScrollLinks[] = [
     {text:"Quiz",href:"quiz1"}

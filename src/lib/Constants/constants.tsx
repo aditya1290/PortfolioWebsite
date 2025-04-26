@@ -1,4 +1,4 @@
-import { Code, GithubIcon, LinkedinIcon, LucideIcon } from 'lucide-react';
+import { Code, GithubIcon, LinkedinIcon } from 'lucide-react';
 import { MainPageButtonProps } from '../types';
 
 export const navBarOptions: string[] = ["blogs","projects","bookshelf"]
