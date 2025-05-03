@@ -16,7 +16,7 @@ export default function Sidebar(){
 
 const allRecentLinksFetch = () => {
     const allArticles = [];
-    allArticles.push(...(Articles.map(x => {return {text:x.title, href:`./DSA/articles/${x.id}`, date:x.date??10}})));
+    allArticles.push(...(Articles.map(x => {return {text:x.title, href:`/blogs/DSA/articles/${x.id}`, date:x.date??10}})));
     allArticles.sort((a,b)=> b.date - a.date);
     return allArticles.slice(0,20);
 }

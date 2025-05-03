@@ -27,10 +27,7 @@ const items:ScrollLinks[] = [
 export default function Component(){
     return (
         <WithHeadingAndRightSidebar heading={"Introduction to STL and important Data Structures"} rightSidebarItem={items}>
-            <Head>
-                <title>Introduction to STL and important Data Structures</title>
-                <meta property="og:title" content="Introduction to STL and important Data Structures" key="title" />
-            </Head>
+            
             <p>STL is a library that contains multiple data structures and algorithm to effectively store and manipulate data. For eg. map, set</p>
             <ul className='my-2'>
                 <li><span><b>Sequence Containers</b>: vector, deque, string</span></li>

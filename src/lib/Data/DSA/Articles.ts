@@ -3,16 +3,14 @@ import { DataProps } from "@/lib/types";
 export const Articles: DataProps[] = [
     {id: "1",title: "Introduction to Data types in C++", date: 1, tags: ["Basics"], level: "Beginner"},
     {id: "2",title:"Introduction to STL and important Data Structures", date:2, tags:["STL"],level:"Beginner"},
-    {id: "3",title:"Logic Building - Basics", date:3, tags:["Basics", "Math", "Puzzles"],level:"Beginner"},
-    {id: "4",title:"Logic Building - Advanced", date: 4, tags: ["Basics","Math", "Puzzles"],level:"Advanced"},
-    {id: "5",title:"Test your skills #1", date: 5, tags:["Basics", "Math"], level:"Beginner", last:true},
-
-    {id:"6",title:"Sieve of Erastosthenes - Prime numbers", date:6, tags:[""], level:"Beginner", last:true},
-
-    {id: "7",title:"Searching All-in-one Sheet", date:7, tags:["Basics","Searching","Array"], level:"Beginner"},
-    {id: "8",title:"Searching Practice Problems", date:8, tags:["Basics", "Searching"], level:"Intermediate", last:true},
-    
-    {id: "9",title:"Basic Sorting Algorithm", date:9, tags:["Basics","Searching","Array"], level:"Beginner"},
+    {id: "3", title:"Time Complexity Practice",date: 2.1, tags:["Complexity"], level: "Beginner"},
+    {id: "4",title:"Logic Building - Basics", date:3, tags:["Basics", "Math", "Puzzles"],level:"Beginner"},
+    {id: "5",title:"Logic Building - Advanced", date: 4, tags: ["Basics","Math", "Puzzles"],level:"Advanced"},
+    {id: "6",title:"Test your skills #1", date: 5, tags:["Basics", "Math"], level:"Beginner", last:true},
+    {id:"7",title:"Sieve of Erastosthenes - Prime numbers", date:6, tags:[""], level:"Beginner", last:true},
+    {id: "8",title:"Searching All-in-one Sheet", date:7, tags:["Basics","Searching","Array"], level:"Beginner"},
+    {id: "9",title:"Searching Practice Problems", date:8, tags:["Basics", "Searching"], level:"Intermediate", last:true},
+    {id: "10",title:"Basic Sorting Algorithm", date:9, tags:["Basics","Searching","Array"], level:"Beginner"},
     /*{id: "10",title:"Quick, Merge and Heap Sort", date:10, tags:["Basics","Searching","Array"], level:"Beginner"},
     {id:"11",title:"Counting, Radix Sort", date:11, tags:["Basics","Searching","Array"], level:"Beginner"},
     {id:"12",title:"Sorting Practice Problems", date:12, tags:["Basics", "Searching"], level:"Intermediate", last:true},
