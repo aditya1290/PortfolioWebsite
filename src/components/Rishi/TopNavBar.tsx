@@ -13,7 +13,7 @@ const TopNavBar: React.FC = () => {
   return (
     <div className="w-full h-14 flex items-center justify-between px-4 bg-white shadow-md">
       {/* Logo */}
-      <div className="w-24 h-12 relative">
+      <div className="w-30 md:w-50 h-14 relative">
         <Image
           src="/logo_rishi.jpg" // Replace with your actual logo path
           alt="Logo"
@@ -21,8 +21,6 @@ const TopNavBar: React.FC = () => {
           objectFit="contain"
         />
       </div>
-
-
 
       {/* WhatsApp Button */}
       <div className="flex gap-2 justify-between items-center">

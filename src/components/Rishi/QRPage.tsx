@@ -13,7 +13,7 @@ const QrSection: React.FC<QrSectionProps> = ({ binanceQrUrl, whatsappQrUrl }) =>
       <div className="border-2 border-cyan-100 rounded-lg p-6 flex flex-col items-center text-center shadow">
         <span className="text-cyan-800 font-bold text-lg mb-6">SCAN TO ORDER</span>
         <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold px-3 py-1 rounded-full mb-4">BINANCE QR CODE</span>
-        <div className="w-32 h-32 overflow-hidden rounded-xl border border-dashed border-gray-300">
+        <div className="w-32 h-32 overflow-hidden">
           <img
             src={binanceQrUrl}
             alt="Binance QR Code"
@@ -27,7 +27,7 @@ const QrSection: React.FC<QrSectionProps> = ({ binanceQrUrl, whatsappQrUrl }) =>
           <MessageCircle  className="w-5 h-5" />
           WHATSAPP QR CODE
         </span>
-        <div className="w-32 h-32 overflow-hidden rounded-xl border border-dashed border-gray-300 mt-4">
+        <div className="w-32 h-32 overflow-hidden  mt-4">
           <img
             src={whatsappQrUrl}
             alt="WhatsApp QR Code"

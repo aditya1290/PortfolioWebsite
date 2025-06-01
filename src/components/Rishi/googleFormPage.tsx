@@ -3,7 +3,7 @@ import { FileText, ExternalLink, Check } from 'lucide-react';
 
 const GoogleFormSection: React.FC = () => {
   return (
-    <div className="mx-auto p-6 bg-green-50 rounded-xl border-2 border-green-200 my-4">
+    <div className="mx-auto p-6 bg-green-50 rounded-xl border-2 border-green-200 mt-4 mb-10 shadow">
       <div className="text-center">
         <div className="flex justify-center items-center gap-2 mb-6">
           <FileText className="text-green-600 w-5 h-5" />
@@ -24,7 +24,7 @@ const GoogleFormSection: React.FC = () => {
         </a>
 
         <div className='flex justify-center'>
-            <div className="mt-4 mb-10 text-xs text-gray-600 space-y-1 flex flex-col justify-start items-start">
+            <div className="mt-4 text-xs text-gray-600 space-y-1 flex flex-col justify-start items-start">
                 <div className="flex justify-center items-center gap-2">
                     <Check className="w-4 h-4 text-green-500" /> Quick 2 minute setup
                 </div>

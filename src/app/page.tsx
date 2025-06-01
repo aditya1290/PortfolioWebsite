@@ -18,12 +18,12 @@ import TopNavBar from "@/components/Rishi/TopNavBar";
 
 export default function Home(){
   return (
-    <div>
+    <div className="">
       <TopNavBar />
       <div className="px-6">
         <HeroSection />
         <TradingStats />
-        <QrSection binanceQrUrl="fddbfdfgsdvbgd" whatsappQrUrl="fgdgsdwedfvfdfv"  />
+        <QrSection binanceQrUrl="Binance_QR.jpg" whatsappQrUrl="WA_QR.jpg"  />
         <ContentPrioritySection />
         <GoogleFormSection />        
       </div>

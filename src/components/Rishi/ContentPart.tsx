@@ -11,7 +11,7 @@ const ContentPrioritySection: React.FC = () => {
     <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
 
       {/* Content & Description */}
-      <div className="border-2 rounded-xl p-6">
+      <div className="border-2 rounded-xl p-6 shadow">
         <div className="text-xl font-semibold text-gray-800 mb-2">CONTENT & DESCRIPTION</div>
         <span className="inline-block bg-blue-100 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full mb-4">From CHAT GPT</span>
         <div className='text-gray-500 font-[400]'>
@@ -33,7 +33,7 @@ const ContentPrioritySection: React.FC = () => {
       </div>
 
       {/* Our Priority */}
-      <div className="border-2 rounded-xl p-6">
+      <div className="border-2 rounded-xl p-6 shadow">
         <div className="text-xl font-semibold text-gray-800 mb-4">OUR PRIORITY</div>
 
         <div className="space-y-3 font-semibold">
