@@ -64,7 +64,10 @@ export const ContactLegalSection: React.FC = () => {
             <MapPin size={16} className="text-red-600" />
             <div>
               <p className="font-semibold">Address</p>
-              <p>1003, Tower A, venkatesh Graffiti Keshav Nagar Pune Maharashtra - 411036</p>
+              <p className="mb-1">1003, Tower A, venkatesh Graffiti Keshav Nagar Pune Maharashtra - 411036</p>
+              <p>Rishi Jagariya Finserv, 9th floor,
+91springboard, Sadanand business centre,
+NH48, service road, Baner, Pune - 411045</p>
             </div>
           </div>
         </div>

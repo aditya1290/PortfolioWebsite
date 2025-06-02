@@ -15,7 +15,7 @@ const TradingStats: React.FC = () => {
                     <span className="text-sm font-semibold text-gray-800">TRADES</span>
                     </div>
                     <span className="px-3 py-1 text-sm text-green-600 bg-green-100 rounded-full font-bold">
-                    98%
+                    9500+
                     </span>
                 </div>
 
@@ -26,7 +26,7 @@ const TradingStats: React.FC = () => {
                     <span className="text-sm font-semibold text-gray-800">COMPLETION</span>
                     </div>
                     <span className="px-3 py-1 text-sm text-blue-600 bg-blue-100 rounded-full font-bold">
-                    500+
+                    98.5%+
                     </span>
                 </div>
 
@@ -34,10 +34,10 @@ const TradingStats: React.FC = () => {
                 <div className="flex flex-row md:flex-col items-center justify-between md:items-center md:justify-center w-full md:w-auto gap-2">
                     <div className="flex items-center gap-2">
                     <Users className="text-purple-500 w-5 h-5" />
-                    <span className="text-sm font-semibold text-gray-800">MORE NUMBER</span>
+                    <span className="text-sm font-semibold text-gray-800">PROFILE AGE</span>
                     </div>
                     <span className="px-3 py-1 text-sm text-purple-600 bg-purple-100 rounded-full font-bold">
-                    Active
+                    1700 Days
                     </span>
                 </div>
 

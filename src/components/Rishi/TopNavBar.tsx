@@ -29,10 +29,10 @@ const TopNavBar: React.FC = () => {
           <span className="text-center">Rishi Jagariya Finserv</span>
         </div>
         {/* <div className="uppercase text-center block sm:hidden mr-2">R S J</div> */}
-        <Badge variant="secondary" className="h-7 rounded-xl hidden sm:flex items-center">SILVER BINANCE MERCHANT</Badge>
+        <Badge variant="secondary" className="h-7 rounded-xl hidden sm:flex items-center bg-gradient-to-r from-[#FFD700] via-[#FFC300] to-[#FFA500] px-6 py-3 rounded-xl font-bold shadow-md hover:brightness-110 transition duration-200">SILVER BINANCE MERCHANT</Badge>
         <Button variant="outline" onClick={handleWhatsAppClick} className="py-3 border border-blue-500 hover:text-blue-400 cursor-pointer text-blue-400 rounded-md">INQUIRY</Button>
-        <Button className="cursor-pointer hidden md:block" variant="ghost"><Bell /></Button>
-        <Button className="cursor-pointer hidden md:block" variant="ghost"><User /></Button>
+        {/* <Button className="cursor-pointer hidden md:block" variant="ghost"><Bell /></Button>
+        <Button className="cursor-pointer hidden md:block" variant="ghost"><User /></Button> */}
       </div>
 
     </div>
